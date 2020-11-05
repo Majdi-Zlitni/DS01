@@ -6,7 +6,6 @@ public class Chercheur {
 	int numOrdinateur;
 	
 	public Chercheur (String nom, String prenom, int numOrdinateur) {
-		
 		this.nom=nom;
 		this.prenom=prenom;
 		this.numOrdinateur=numOrdinateur;
@@ -22,6 +21,11 @@ public class Chercheur {
 			System.out.println("les deux chercheur sont identique");
 			}
 		
+		
+	}
+	
+	public String toString() {
+		return "Chercheur nom=" + nom + ", prenom=" + prenom + ", numOrdinateur=" + numOrdinateur + "]";
 	}
 	
 	
